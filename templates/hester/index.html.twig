@@ -1,0 +1,12 @@
+{% extends 'base.html.twig' %}
+
+{% block body_id 'hester_index' %}
+
+{% block header %}
+    {{ include('hester/_header_.html.twig') }}
+{% endblock %}
+
+{% block body %}
+    <h1>Hello from hester/index.html.twig!</h1>
+    <a href="{{ path('homepage') }}">Retour à /</a>
+{% endblock %}
